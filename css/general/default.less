@@ -1,0 +1,106 @@
+/**************************************************
+*
+*    DEFAULT
+*
+***************************************************/
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.draft-img {
+    height: 250px;
+}
+
+img {
+	background-color:#fafafa;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Background placehold for image */
+img[alt] {
+    &:extend(.bg-placeholder-loading);
+}
+
+/* Form */
+textarea.form-control {
+    resize: none;
+    padding-top: 11px;
+}
+.form-control {
+    border: 1px solid #e0e0e0;
+    background-color: #fbfbfb;
+    .box-shadow(none);
+    .border-radius(0);
+
+    &:focus {
+        border-color: @green-color;
+        .box-shadow(none);
+    }
+}
+
+/* Video responsive */
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object{
+    &:extend(.bg-placeholder-loading);
+}
+
+/* Remove blue border from css custom-styled button in chrome */
+button:focus {
+    outline: 0 !important;
+}
+.btn:active, .btn.active {
+    box-shadow: none !important;
+}
+
+a, button, input[type=submit] {
+    &:focus, &:active {
+        box-shadow: none !important;
+    }
+}
+.btn-group.open .dropdown-toggle {
+    box-shadow: none !important;
+    background-color: #fff;
+}
+.btn-group .dropdown-toggle {
+    &:hover, &:focus {
+        background-color: #fff;
+    }
+}
+
+/* Remove style default ul */
+.nav-ul {
+    margin      : 0;
+    padding-left: 0;
+    list-style  : none;
+}
+
+/* Set cursor pointer on input file */
+::-webkit-file-upload-button {
+    cursor:pointer;
+}
+
+/* Cover center inline block */
+.par-center-inline-block {
+    text-align: center;
+    line-height: 0;
+    font-size: 0;
+}
+
+.par-inline-block {
+    line-height: 0;
+    font-size: 0;
+    * {
+        font-size: 12px;
+    }
+}
+
+.row-container {
+    &:extend(.clearfix all);
+}
+
+/* Width container */
+.container {
+    width: 980px;
+    margin: auto;
+}
