@@ -1,0 +1,846 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>[:. Tham Gia .:]</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="description" content="mô tả website" />
+	<meta name="keywords" content="những từ khóa của website bạn" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="img/front/favicon.ico" type="image/x-icon" />
+	
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/colorbox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/datepicker.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" media="screen" />
+</head>
+<body>
+	<div id="pt-left-thamgia">
+		<a href="#" class="icon-menu-link"><i class="fa fa-bars"></i></a>
+		<h1 id="pt-logo"><a href="#">Tham Gia</a></h1>
+		<ul class="pt-menu-left">
+			<li>
+				<a href="#"><i class="fa icon-flag"></i>Sự kiện</a>
+			</li>
+			<li>
+				<a href="#"><i class="fa icon-coffee"></i>Teabreak</a>
+			</li>
+			<li>
+				<a href="#"><i class="fa icon-bullhorn"></i>Chợ phiên</a>
+			</li>
+		</ul>
+		<ul class="pt-list-info-thamgia">
+			<li>
+				<h3><i class="fa icon-square"></i> Thamgia.net là gì ?</h3>
+				<p>Là cộng đòng năng động chia sẻ thông tin sự kiện, hội thảo, khuyến mãi, khóa hóc,... Nơi kết nối và tạo cơ hội kinh doanh. <a href="#">Xem tiếp <i class="fa fa-angle-double-right"></i></a></p>
+			</li>
+			<li>
+				<h3><i class="fa icon-credit-card"></i> 1600 Card Visit đã tạo</h3>
+			</li>
+			<li>
+				<h3><i class="fa icon-flag"></i> 9122 sự kiện đã được chia sẻ</h3>
+			</li>
+		</ul>
+		<div class="pt-add-event">
+			<h3>Bạn cần quảng bá sự kiện</h3>
+			<button type="button" class="btn btn-lg"><i class="fa fa-plus-circle"></i></span> Đăng sự kiện mới</button>
+		</div>
+	</div>
+	<div id="pt-wrapper">		
+		<div id="pt-head-container">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="block">
+						<div class="pt-address pull-left">
+							<a href="#" class="pt-address-info"><i class="fa fa-map-marker"></i><span>Hồ Chí Minh</span><i class="fa fa-chevron-down"></i></a>
+							<ul class="pt-list-address">
+								<li><a href="#"><i class="fa fa-map-marker"></i> Hồ Chí Minh</a></li>
+								<li><a href="#"><i class="fa fa-map-marker"></i> Hà Nội</a></li>
+								<li><a href="#"><i class="fa fa-map-marker"></i> Đà Nẵng</a></li>
+							</ul>
+						</div>
+						<div class="pt-search pull-left">
+							<button class="button-search" title="Search" type="submit"><i class="fa fa-search"></i></button>
+							<input class="input-text" type="text" onblur="if(this.value=='') this.value='Tìm kiếm...'" onfocus="if(this.value=='Tìm kiếm...') this.value='';" value="Tìm kiếm...">
+							<div class="pt-block-content-search">
+								<div class="pt-select">
+									<i class="fa fa-angle-down"></i>
+									<select>
+										<option value="0"> Tất cả thể loại</option>
+										<option value="0"> Danh mục 02</option>
+										<option value="0"> Danh mục 03</option>
+										<option value="0"> Danh mục 04</option>
+										<option value="0"> Danh mục 05</option>
+									</select>
+								</div>
+								<div class="pt-datepicker">
+									<input name="data[Booking][arrivaldate]" id="dpd1" class="span2 icon-input" data-date-format="dd-mm-yyyy" placeholder="" type="text">
+								</div>
+								<div class="pt-den">
+									Đến
+								</div>
+								<div class="pt-datepicker">
+									<input name="data[Booking][departuredate]" id="dpd2" class="span2 icon-input" data-date-format="dd-mm-yyyy" placeholder="" type="text">
+								</div>
+							</div>
+						</div>
+						<div class="pt-login pull-right">
+							<div class="">
+								<div class="pt-setting-user">
+									<div class="dropdown">
+								        <button class="btn dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"><i class="fa fa-chevron-down"></i></button>
+								        <ul class="dropdown-menu dropdown-menu-right dropdown-row" role="menu" aria-labelledby="menu1">
+									        <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-flag"></i> Sự kiện đã đăng<span>19</span></a></li>
+									        <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-heart"></i> Sự kiện đã tham gia<span>19</span></a></li>
+									        <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-envelope-o"></i> Tin nhắn <span>19</span></a></li>
+									        <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-user"></i> Thông tin cá nhân</a></li>
+									        <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-sign-out"></i> Thoát</a></li>
+								        </ul>
+								    </div>
+								</div>
+
+								<div class="btn-group pt-notify">
+									<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+									    <span class="number">5</span>
+									    <i class="fa fa-bell"></i>
+									</button>
+									<div class="dropdown-menu dropdown-menu-right dropdown-row pt-block-stt" role="menu">
+										<div class="pt-info-content-stt">
+											<div class="pt-niceScroll">
+												<ul class="pt-list-comment">
+													<li>
+														<div class="block-user">
+															<a href="#">
+																<img src="img/images/sk2.jpg" alt="">
+																<div class="block-content-text">
+																	<h3 class="title"><span class="user-name">Hồng Nhung</span>vừa đăng sự kiện <strong>Đà tạo chứng chỉ văn thư lưu trữ trên toàn quốc</strong></h3>
+																	<p>1 giờ trước</p>
+																</div>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="block-user">
+															<a href="#">
+																<img src="img/images/sk2.jpg" alt="">
+																<div class="block-content-text">
+																	<h3 class="title"><span class="user-name">Hồng Nhung</span>vừa đăng sự kiện <strong>Đà tạo chứng chỉ văn thư lưu trữ trên toàn quốc</strong></h3>
+																	<p>1 giờ trước</p>
+																</div>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="block-user">
+															<a href="#">
+																<img src="img/images/sk2.jpg" alt="">
+																<div class="block-content-text">
+																	<h3 class="title"><span class="user-name">Hồng Nhung</span>vừa đăng sự kiện <strong>Đà tạo chứng chỉ văn thư lưu trữ trên toàn quốc</strong></h3>
+																	<p>1 giờ trước</p>
+																</div>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="block-user">
+															<a href="#">
+																<img src="img/images/sk2.jpg" alt="">
+																<div class="block-content-text">
+																	<h3 class="title"><span class="user-name">Hồng Nhung</span>vừa đăng sự kiện <strong>Đà tạo chứng chỉ văn thư lưu trữ trên toàn quốc</strong></h3>
+																	<p>1 giờ trước</p>
+																</div>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="block-user">
+															<a href="#">
+																<img src="img/images/sk2.jpg" alt="">
+																<div class="block-content-text">
+																	<h3 class="title"><span class="user-name">Hồng Nhung</span>vừa đăng sự kiện <strong>Đà tạo chứng chỉ văn thư lưu trữ trên toàn quốc</strong></h3>
+																	<p>1 giờ trước</p>
+																</div>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="block-user">
+															<a href="#">
+																<img src="img/images/sk2.jpg" alt="">
+																<div class="block-content-text">
+																	<h3 class="title"><span class="user-name">Hồng Nhung</span>vừa đăng sự kiện <strong>Đà tạo chứng chỉ văn thư lưu trữ trên toàn quốc</strong></h3>
+																	<p>1 giờ trước</p>
+																</div>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="block-user">
+															<a href="#">
+																<img src="img/images/sk2.jpg" alt="">
+																<div class="block-content-text">
+																	<h3 class="title"><span class="user-name">Hồng Nhung</span>vừa đăng sự kiện <strong>Đà tạo chứng chỉ văn thư lưu trữ trên toàn quốc</strong></h3>
+																	<p>1 giờ trước</p>
+																</div>
+															</a>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									 </div>
+								</div>
+								
+
+								<div class="pt-user-info">
+									<a href="#">
+										<h3>Nguyễn Văn A</h3>
+										<img src="img/images/sk2.jpg" alt="">
+									</a>
+								</div>
+
+
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<div id="pt-content-container">
+			<div class="container-fluid">			
+				<div class="row mbt">
+					<div class="pt-header-line">
+						<div class="pt-section bg1">
+							<div class="pt-menu-content">
+								<ul class="pt-list-menu-content">
+									<li class="icon-index active">
+										<a href="#" ><i class="fa fa-home"></i></a>
+									</li>
+									<li>
+										<a href="#" class="text-link">Hội thảo <span class="color1">9</span></a>
+									</li>
+									<li>
+										<a href="#" class="text-link">Khuyến mãi </a>
+									</li>
+									<li>
+										<a href="#" class="text-link">Đào tạo <span class="color2">09</span></a>
+									</li>
+									<li>
+										<a href="#" class="text-link">Giải trí <span>09</span></a>
+									</li>
+									<li>
+										<a href="#" class="text-link">Khai trương <span>09</span></a>
+									</li>
+									<li>
+										<a href="#" class="text-link">Xã hội <span>09</span></a>
+									</li>
+									<li class="list-sup-menu">
+										<a href="#" class="icon-index"><i class="fa fa-reorder"></i></a>
+										<ul class="pt-list-menu-content-sup">
+											<li class="list-pc">
+												<a href="#" class="text-link">Hội thảo <span>9</span></a>
+											</li>
+											<li class="list-pc">
+												<a href="#" class="text-link">Khuyến mãi <span>09</span></a>
+											</li>
+											<li class="list-pc">
+												<a href="#" class="text-link">Đào tạo <span>09</span></a>
+											</li>
+											<li class="list-pc">
+												<a href="#" class="text-link ">Giải trí <span>09</span></a>
+											</li>
+											<li class="list-pc">
+												<a href="#" class="text-link">Khai trương <span>09</span></a>
+											</li>
+											<li class="list-pc">
+												<a href="#" class="text-link">Xã hội <span>09</span></a>
+											</li>
+											<li>
+												<a href="#" class="text-link">Hội thảo <span>09</span></a>
+											</li>
+											<li>
+												<a href="#" class="text-link">Khuyến mãi <span>09</span></a>
+											</li>
+											<li>
+												<a href="#" class="text-link">Đào tạo <span>09</span></a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+								<a href="#" class="add-event pull-right"><i class="fa fa-plus-circle"></i> Đăng sự kiện mới</a>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="pt-sponsored-events">
+					<h2 class="title">Sự kiện được tài trợ<a href="#">Xem chương trình tài trợ</a></h2>
+					<div class="block row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<div class="content-block">
+								<div class="img">
+									<img src="img/images/sk1.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<div class="content-block">
+								<div class="img">
+									<img src="img/images/sk2.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<div class="content-block">
+								<div class="img">
+									<img src="img/images/sk3.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<div class="content-block">
+								<div class="img">
+									<img src="img/images/sk4.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+							</div>
+						</div>
+					</div>
+				</div>	<!--   Sự kiện được tài trợ  -->
+				<div class="pt-new-members">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<h2 class="title">Thành viên mới</h2>
+							<div class="content-block row">
+								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+									<div class="block-user">
+										<img src="img/images/sk3.jpg" alt="" />
+										<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+										<p>Tham gia: 03/03/2015</p>
+									</div>
+									<div class="block-user">
+										<img src="img/images/sk4.jpg" alt="" />
+										<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+										<p>Tham gia: 03/03/2015</p>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+									<div class="block-user">
+										<img src="img/images/sk1.jpg" alt="" />
+										<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+										<p>Tham gia: 03/03/2015</p>
+									</div>
+									<div class="block-user">
+										<img src="img/images/sk2.jpg" alt="" />
+										<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+										<p>Tham gia: 03/03/2015</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<h2 class="title">Danh thiếp mới</h2>
+							<div class="content-block row">
+								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+									<div class="block-user">
+										<img src="img/images/t1.jpg" alt="" />
+										<a href="#" class="friend"></a>
+										<div class="block-how">
+											<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+											<p>Kỹ sư xây dụng đà nẵng</p>
+										</div>
+									</div>
+									<div class="block-user">
+										<img src="img/images/t2.jpg" alt="" />
+										<a href="#" class="friend"></a>
+										<div class="block-how">
+											<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+											<p>Kỹ sư xây dụng đà nẵng</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+									<div class="block-user">
+										<img src="img/images/t3.jpg" alt="" />
+										<a href="#" class="friend"></a>
+										<div class="block-how">
+											<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+											<p>Kỹ sư xây dụng đà nẵng</p>
+										</div>
+									</div>
+									<div class="block-user">
+										<img src="img/images/t4.jpg" alt="" />
+										<a href="#" class="friend"></a>
+										<div class="block-how">
+											<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+											<p>Kỹ sư xây dụng đà nẵng</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!--   Thành viên mới - Danh thiếp mới  -->
+
+				<div class="pt-upcoming-events">
+					<h2 class="title">Sự kiện sắp diễn ra tại Hà Nội</h2>
+					<div class="custom-container">
+				        <a href="#" class="prev"><i class="fa fa-caret-left"></i></a>
+				        <div class="block-carousel">
+					        <div class="carousel">
+					            <ul>
+					            	<li class="active"><a href="#">01/2015</a></li>
+					                <li><a href="#">02/2015</a></li>
+					                <li><a href="#">03/2015</a></li>
+					                <li><a href="#">04/2015</a></li>
+					                <li><a href="#">05/2015</a></li>
+					                <li><a href="#">06/2015</a></li>
+					                <li><a href="#">07/2015</a></li>
+					                <li><a href="#">08/2015</a></li>
+					                <li><a href="#">09/2015</a></li>
+					                <li><a href="#">10/2015</a></li>
+					                <li><a href="#">11/2015</a></li>
+					                <li><a href="#">12/2015</a></li>
+					            </ul>
+					        </div>
+				        </div>
+				        <a href="#" class="next"><i class="fa fa-caret-right"></i></a>
+				    </div>
+					<div class="pt-upcoming-events-content">
+						<div class="item">
+							<div class="content-block">
+								<div class="block-user">
+									<img src="img/images/sk3.jpg" alt="">
+									<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+									<p>Tham gia: 03/03/2015</p>
+								</div>
+								<div class="img">
+									<img src="img/images/n1.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+								<div class="block-general">
+									<div class="like">
+										<a href="#"><i class="fa fa-heart"></i>  Cảm ơn</a>
+										<span>15</span>
+									</div>
+									<div class="tack">
+										<a href="#"><i class="fa fa-thumb-tack"></i>  Đánh dấu</a>
+									</div>
+									<div class="share">
+										<a href="#"><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="content-block">
+								<div class="block-user">
+									<img src="img/images/sk2.jpg" alt="">
+									<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+									<p>Tham gia: 03/03/2015</p>
+								</div>
+								<div class="img">
+									<img src="img/images/n2.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+								<div class="block-general">
+									<div class="like">
+										<a href="#"><i class="fa fa-heart"></i>  Cảm ơn</a>
+										<span>15</span>
+									</div>
+									<div class="tack">
+										<a href="#"><i class="fa fa-thumb-tack"></i>  Đánh dấu</a>
+									</div>
+									<div class="share">
+										<a href="#"><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="content-block">
+								<div class="block-user">
+									<img src="img/images/sk3.jpg" alt="">
+									<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+									<p>Tham gia: 03/03/2015</p>
+								</div>
+								<div class="img">
+									<img src="img/images/n3.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+								<div class="block-general">
+									<div class="like">
+										<a href="#"><i class="fa fa-heart"></i>  Cảm ơn</a>
+										<span>15</span>
+									</div>
+									<div class="tack">
+										<a href="#"><i class="fa fa-thumb-tack"></i>  Đánh dấu</a>
+									</div>
+									<div class="share">
+										<a href="#"><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="content-block">
+								<div class="block-user">
+									<img src="img/images/n4.jpg" alt="">
+									<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+									<p>Tham gia: 03/03/2015</p>
+								</div>
+								<div class="img">
+									<img src="img/images/sk1.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+								<div class="block-general">
+									<div class="like">
+										<a href="#"><i class="fa fa-heart"></i>  Cảm ơn</a>
+										<span>15</span>
+									</div>
+									<div class="tack">
+										<a href="#"><i class="fa fa-thumb-tack"></i>  Đánh dấu</a>
+									</div>
+									<div class="share">
+										<a href="#"><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="content-block">
+								<div class="block-user">
+									<img src="img/images/sk3.jpg" alt="">
+									<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+									<p>Tham gia: 03/03/2015</p>
+								</div>
+								<div class="img">
+									<img src="img/images/n5.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+								<div class="block-general">
+									<div class="like">
+										<a href="#"><i class="fa fa-heart"></i>  Cảm ơn</a>
+										<span>15</span>
+									</div>
+									<div class="tack">
+										<a href="#"><i class="fa fa-thumb-tack"></i>  Đánh dấu</a>
+									</div>
+									<div class="share">
+										<a href="#"><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="content-block">
+								<div class="block-user">
+									<img src="img/images/n6.jpg" alt="">
+									<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+									<p>Tham gia: 03/03/2015</p>
+								</div>
+								<div class="img">
+									<img src="img/images/sk3.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+								<div class="block-general">
+									<div class="like">
+										<a href="#"><i class="fa fa-heart"></i>  Cảm ơn</a>
+										<span>15</span>
+									</div>
+									<div class="tack">
+										<a href="#"><i class="fa fa-thumb-tack"></i>  Đánh dấu</a>
+									</div>
+									<div class="share">
+										<a href="#"><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="content-block">
+								<div class="block-user">
+									<img src="img/images/sk2.jpg" alt="">
+									<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+									<p>Tham gia: 03/03/2015</p>
+								</div>
+								<div class="img">
+									<img src="img/images/n7.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+								<div class="block-general">
+									<div class="like">
+										<a href="#"><i class="fa fa-heart"></i>  Cảm ơn</a>
+										<span>15</span>
+									</div>
+									<div class="tack">
+										<a href="#"><i class="fa fa-thumb-tack"></i>  Đánh dấu</a>
+									</div>
+									<div class="share">
+										<a href="#"><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="content-block">
+								<div class="block-user">
+									<img src="img/images/sk1.jpg" alt="">
+									<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+									<p>Tham gia: 03/03/2015</p>
+								</div>
+								<div class="img">
+									<img src="img/images/n8.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+								<div class="block-general">
+									<div class="like">
+										<a href="#"><i class="fa fa-heart"></i>  Cảm ơn</a>
+										<span>15</span>
+									</div>
+									<div class="tack">
+										<a href="#"><i class="fa fa-thumb-tack"></i>  Đánh dấu</a>
+									</div>
+									<div class="share">
+										<a href="#"><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="content-block">
+								<div class="block-user">
+									<img src="img/images/sk1.jpg" alt="">
+									<h3 class="title"><a href="#">Hồng Nhung</a></h3>
+									<p>Tham gia: 03/03/2015</p>
+								</div>
+								<div class="img">
+									<img src="img/images/n9.jpg" alt="" />
+									<div class="times">
+										<strong>19</strong>
+										<span>THÁNG 6</span>
+									</div>
+								</div>
+								<h3 class="title"><a href="#">Hội thảo tiếng anh</a></h3>
+								<p>Xem chương trình tài trợ Xem chương trình tài trợ</p>
+								<div class="block-general">
+									<div class="like">
+										<a href="#"><i class="fa fa-heart"></i>  Cảm ơn</a>
+										<span>15</span>
+									</div>
+									<div class="tack">
+										<a href="#"><i class="fa fa-thumb-tack"></i>  Đánh dấu</a>
+									</div>
+									<div class="share">
+										<a href="#"><i class="fa fa-share"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!--   Sự kiện sắp diễn ra tại ....  -->
+
+			</div>
+		</div>
+		<div id="pt-footer-container">
+			<div class="container-fluid">		
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="block-address block-w">
+							<h3><i class="fa fa-map-marker"></i> VP Đà Nẵng</h3>
+							<p>285 Trần Phú, Quận Hải Châu</p>
+						</div>
+						<div class="block-address">
+							<h3><i class="fa fa-map-marker"></i> VP Hồ Chí Minh</h3>
+							<p>29 đường B6, Phường 12, Quận Tân Bình</p>
+						</div>
+						<div class="block-phone">
+							<h3><i class="fa fa-phone"></i> 0905 182 013</h3>
+							<p>Đt: (+84) 0511 653 6066. Fax: (+84) 0511 653 600566. Email: <a href="#">info@thamgia.net</a></p>
+						</div>
+					</div>
+					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+						<div class="block-search">
+							<h3>Tìm kiếm và chia sẻ sự kiện chưa bao giờ dễ dàng hơn</h3>
+							<p>Theo dõi tất cả sự kiện mọi lúc mọi nơi, chia sẻ và rủ những người bạn đến tham gia sự kiện nhanh nhất trên thamgia.net</p>
+							<a class="download" href="#"><i class="fa fa-apple"></i>Download for iPhone </a>
+							<a class="download" href="#"><i class="fa fa-android"></i> Download for Android </a>
+						</div>
+					</div>
+					<img class="phone-img" src="img/images/phone.png" alt="">
+				</div>
+			</div>
+			<div class="coppyright">
+				<div class="left-footer">
+					<h3>© 2014 Thamgia.net</h3>
+					<ul>
+						<li><a href="#">Giới thiệu</a></li>
+						<li><a href="#">Điều khoản sử dụng</a></li>
+						<li><a href="#">Chương trình tài trợ</a></li>
+						<li><a href="#">Liên hệ</a></li>
+						<li><a href="#">Đóng góp ý kiến</a></li>
+					</ul>
+				</div>
+				<div class="right-footer">
+					<ul>
+						<li><a href="#" class="icon-01"></a></li>
+						<li><a href="#" class="icon-02"></a></li>
+						<li><a href="#" class="icon-03"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="popup-exchange">
+		<div class="popup-login" id="login">
+			<div class="login-checkout">
+				<h3 class="title">Đăng nhập</h3>
+            	<form id="frm_contact" name="frm_contact" method="post" accept-charset="utf-8">
+                	<fieldset>
+                    	<ul>
+                        	<li>
+                        		<label>Email</label>
+                            	<input type="text" name="name" id="name"/>
+                            </li>
+                            <li>
+                            	<label>Password</label>
+                                <input type="password" name="password" id="password" >
+                            </li>
+                            <li>
+                            	<button type="submit" title="" class="button">Đăng nhập</button>
+                            </li>
+                            <li class="control">
+                            	<input type="checkbox" name="is_subscribed" title="" value="1" id="is_subscribed" class="checkbox">
+                                <label for="is_subscribed">Ghi nhớ đăng nhập</label>
+                                <a href="#" class="password">Quên mật khẩu?</a>
+                            </li>
+                            <li class="last">
+                            	<a href="#" class="facebook"><i class="fa fa-facebook"></i> Đăng nhập qua facebook</a>
+                            </li>
+                        </ul>
+                         <div class="link-sigup-popup">
+                            	Bạn chưa có tài khoản. <a href="#sigup-popup">Đăng ký ngay tại đây</a>
+                          </div>
+                    </fieldset>
+                </form>
+            </div>
+		</div>
+	</div>
+
+	<div class="popup-exchange">
+		<div class="popup-login" id="sigup-popup">
+			<div class="login-checkout" style="width:350px;">
+				<h3 class="title">Đăng ký</h3>
+            	<form id="frm_contact" name="frm_contact" method="post" accept-charset="utf-8">
+                	<fieldset>
+                    	<ul>
+                        	<li>
+                        		<label>Email</label>
+                            	<input type="text" name="name" id="name"/>
+                            </li>
+                            <li>
+                            	<label>Password</label>
+                                <input type="password" name="password" id="password" >
+                            </li>
+                            <li>
+                            	<label>Nhập lại Password </label>
+                                <input type="password" name="password" id="password" >
+                            </li>
+                            <li class="code">
+                            	<label>Code</label>
+                            	<img src="img/images/code.png" alt="">
+                                <input type="text" name="code" id="code" >
+                            </li>
+                            <li>
+                            	<button type="submit" title="" class="button">Đăng ký</button>
+                            </li>
+                            <li class="control">
+                            	<input type="checkbox" name="is_subscribed" title="" value="1" id="is_subscribed" class="checkbox">
+                                <label for="is_subscribed">Tôi đã đọc và đồng ý với</label>
+                                <a href="#" class="thamgia">Các điều khoản của Thamgia.net</a>
+                            </li>
+                        </ul>
+                         <div class="link-sigup-popup">
+                            	Bạn đã có tài khoản. <a href="#login">Đăng nhập</a>
+                          </div>
+                    </fieldset>
+                </form>
+            </div>
+		</div>
+	</div>
+
+	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
+	<script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+	<script src="js/jquery.jcarousellite.min.js" type="text/javascript"></script>
+	<script src="js/jquery.colorbox-min.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/common.js" type="text/javascript"></script>
+</body>
+</html>
